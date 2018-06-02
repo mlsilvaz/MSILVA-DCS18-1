@@ -1,7 +1,8 @@
 package Pregunta2;
 
 public abstract class Profesor extends Persona {
- private String IdProfesor; 
+//Clase abstracta para las clases concretas ProfesorInterino, ProfesorTitular
+	private String IdProfesor; 
  public Profesor () 
   { 
    super();         
