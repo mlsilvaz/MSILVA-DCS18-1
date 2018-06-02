@@ -1,8 +1,10 @@
 package pregunta5;
 
-public class Client {
-
-    public static void main(String[] args) {
+public class Client2 {
+	private WhiteFinish whitefinish; 
+	private FastProcessor fastprocessor;
+	
+	public static void main(String[] args) {
         Computer basicComputer = new Computer(new WhiteFinish(), new SmallHardDisk(), new BasicProcessor(), new BasicMemory());
         System.out.println("Basic Computer:\n" + basicComputer.getDescription());
         
@@ -22,11 +24,4 @@ public class Client {
         Computer highEndComputer = new Computer(new BlackFinish(), new HugeFlash(), new HighEndProcessor(), new ProMemory());
         System.out.println("HighEnd Computer Computer:\n" + highEndComputer.getDescription());
     }
-
-    public static class FactoryMaker {
-    	
-    	
-    }
-    
-    
 }
