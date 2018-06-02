@@ -5,7 +5,10 @@ public class Client2 {
 	private FastProcessor fastprocessor;
 	
 	public static void main(String[] args) {
-        Computer basicComputer = new Computer(new WhiteFinish(), new SmallHardDisk(), new BasicProcessor(), new BasicMemory());
+        //Computer basicComputer = new Computer(new WhiteFinish(), new SmallHardDisk(), new BasicProcessor(), new BasicMemory());
+    
+		Client newclient = new Client2();
+        
         System.out.println("Basic Computer:\n" + basicComputer.getDescription());
         
         System.out.println("\n**********************\n");
