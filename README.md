@@ -43,7 +43,7 @@ Los ejemplos propuestos NO pueden ser los vistos en clases, ni tampoco bajado de
 - Construya un ejemplo en la que se aplique el principio: "Favorecer la composición de objetos frente a la herencia de clases".***
 -En mi ejemplo estoy usando clases abstractactas para ocultar la implementacion y solo exponer la interface.
 -Las clases ProfesorTitular y ProfesorInterino son subcases de la clase abstracta Profesor que a su vez es subclase de la clase Persona.
--En este esquema ocultamos la implementacion y solo exponemos interfaces.
+-En este esquema ocultamos la implementacion y solo expone las interfaces.
 
 
 
